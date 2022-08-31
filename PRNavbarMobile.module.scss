@@ -1,0 +1,121 @@
+.prNav * {
+    font-family: $poppins;
+    margin: 0;
+  }
+  
+  .prNav {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 62px;
+    width: 100%;
+    background-color:$color-prnav;
+    color: $color-medium;
+    
+  }
+  
+  .menuWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 13px;
+    
+  }
+  
+  .menuLogo {
+    cursor: pointer;
+    background-image: url("/images/radio-logo.png");
+    width: 160px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .moreMediaItem svg {
+    cursor: pointer;
+    height: 30px;
+    width: 20px;
+    margin: 0 35px 0 10px;
+    transition: .5s;
+  }
+
+  .menuMobile button {
+    background: transparent;
+    border: none;
+}
+
+.menuMobile svg {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    margin-left: 1rem;
+}
+
+
+.SpeakerItem svg {
+  margin-right: 2rem;
+  height: 27px;
+  width: 27px;
+}
+
+.imgX {
+  margin: 2px 0 0 10px;
+  height: 24px;
+  width: 24px;
+}
+
+.prContent {
+  width: 40%;
+  background-color: $color-prnav;
+  position: absolute;
+  top: 55px;
+  z-index: 1;
+  
+}
+
+.prContent li {
+  border-bottom: 2px solid $color-border-nav;
+  margin: 8px 0 8px 0;
+  
+}
+
+.prContent li:last-child {
+  border-bottom: none;
+  text-align: end;
+}
+
+.prContent a {
+  font-size: 0.8rem;
+  
+}
+
+.moreMediaItem button {
+  background: transparent;
+  border: none;
+  
+
+  .arrowLeft {
+    transform: rotate (90deg);
+  }
+
+  .arrowRight {
+    transform: rotate(-90deg);
+  }
+}
+
+.leftColumn,
+.rightColumn,
+.middleColumnTwo,
+.middleColumnOne {
+  border-bottom: 2px solid $color-border-light;
+  background-color: $color-white;
+}
+
+.prContentMore {
+  position: absolute;
+    display: block;
+    width: 60%;
+    right: 0;
+    top:55px;
+}
